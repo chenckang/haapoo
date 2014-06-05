@@ -1,0 +1,63 @@
+@import "static/common.less";
+#a-sid {
+	width: 239px;
+	height: 100px;
+	margin: 70px 0;
+	display: block;
+	section {
+		background: #fff;
+		.a-nav-item();
+		position: fixed;
+		width: 239px;
+		border-color: @color-yellow;
+		border-left: 1px solid @font-grey-color;
+		h3 {
+			width: 180px;
+			height: 35px;
+			font-size: 14px;
+			color: #fff;
+			line-height: 35px;
+			background: url('rec.png') no-repeat;
+			background-size: 180px 35px;
+			float: right;
+			position: relative;
+			right: -7px;
+			top: 5px;
+		}
+		li {
+			padding: 10px 20px 10px 10px;
+			border-bottom: 1px solid @font-grey-color;
+		}
+		li:last-child {
+			border: none;
+		}
+		h4 {
+			color: @color-blue;
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		p {
+			color: @font-black-color;
+			text-align: justify;
+			font-size: 12px;
+		}
+		menu {
+			padding: 5px 0;
+		}
+		button {
+			padding: 10px;
+			-webkit-appearance: none;
+			background: @color-blue;
+			border: none;
+			outline: none;
+			border-radius: 10px;
+			color: #fff;
+			font-size: 12px;
+			-webkit-tab-highlight-color: transparent;
+			cursor: pointer;
+		}
+		button:hover{
+			background: @color-yellow;
+		}
+	}
+}
